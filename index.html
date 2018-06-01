@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EAST</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!--                *****  navbar  *****              -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div class="toggleBtn" onclick="toggleMenu(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="menu" class="menu">
+  <ul class="navMenu">
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="Service.html">Our Services</a></li>
+  </ul>
+  <ul class="iconMenu">
+    <i><a href="#" class="fab fa-facebook-f"></a></i>
+    <i><a href="#" class="fab fa-twitter"></a></i>
+    <i><a href="#" class="fab fa-youtube"></a></i>
+  </ul>
+</div>
+
+  <a class="navbar-brand navIcon" href="index.html">
+    <span class="textBigSizing">EAST |</span>
+    <div class="textSmallSizing"> Expertise Of Academic<br>Services In Turkey</div>
+  </a>
+
+  <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Service.html">Our Services</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!--          *****  main header  *****          -->
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+
+    <p class="lead underline">We help the student to find the best academic<br> 
+choice in his/her life.</p>
+
+    <div class="row">
+  <div class="col-sm-6 cardSpece">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">We in Brief</h5>
+        <p class="card-text">EAST is an academic agency where we are committed to delivering resources via academic services that helping students. </p>
+        <a href="about.html" class="btn btn-primary buttonCard">More about us</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 cardSpece">
+    <div class="shadow card">
+      <div class="card-body">
+        <img src="image/home/bookmark.png">
+        <h5 class="card-title">A – Z Services</h5>
+        <p class="card-text">The Office of Academic Services is the center for the advising and support for Arab undergraduate and postgraduate students. </p>
+        <a href="Service.html" class="btn btn-primary buttonCard">More about Our services</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<footer class="subFooter fixed-bottom">
+  <p>&#169; 2018 Expreties Of Academic Services in Turkey.</p>
+</footer>
+
+</body>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+   function toggleMenu(ref) {
+  ref.classList.toggle('active');
+  document.getElementById('menu').classList.toggle('active');
+}
+  </script>
+</html>

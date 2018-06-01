@@ -1,0 +1,529 @@
+* {
+	font-family: 'PT Serif', serif;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+.navbar {
+	width: 100%;
+    position: fixed;
+    padding: 1rem 3rem;
+    background-image: linear-gradient(#1e6ab8cc,#1e6ab8cc),url(../image/about/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5;	
+}
+.navIcon {
+	display: inline-flex;
+}
+.textSmallSizing {
+	font-size: 10px;
+    padding: 7px 0;
+    line-height: 1.2;
+}
+.textBigSizing{
+	font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.menu {
+	display: none;
+}
+.collapse p {
+	color: white;
+	margin: 0;
+}
+.navbar .fas {
+	color: #eec851;
+    padding-top: 25px;
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+#scrollToTopButton {
+	position: fixed;
+	bottom: 60px;
+	right: 40px;
+	height: 40px;
+	width: 40px;
+	border: 0;
+	padding: 0;
+	outline: 0;
+	background-color: #cbcbcb;
+	color: white;
+	cursor: pointer;
+	z-index: 5;
+}
+
+
+
+/*              *****  side bar  *****               */
+.sideBar {
+	width: 15%;
+	background-color: #fbfbfb;
+	height: 100vh;
+	float: left;
+	border-right: #cbcbcb solid 0.5px;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+}
+.sideBar .sideFixed {
+	width: 15%;
+	position: fixed;
+}
+.sideBar .sideMenu {
+	margin-top: 60%;
+	padding-left: 40%;
+}
+.sideBar .sideMenu li {
+	list-style: none;
+	font-size: 15px;
+    margin: 0;
+}
+.sideBar .sideMenu .working a {
+    color: #3d5a76;
+    text-decoration: none;
+}
+.sideBar .sideMenu .working a:hover {
+	color: #7597b7;
+}
+.sideBar .sideMenu .unworking a{
+    color: #585858;
+    text-decoration: none;
+}
+.sideBar .sideMenu .unworking a:hover {
+	color: black;
+}
+.sideBar .underline::after {
+	content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:#e1c653;
+    margin: 4px 0px 10px;
+}
+.iconSideMenu {
+	position: fixed;
+    bottom: 0;
+    padding-left: 5%;
+    width: 15%;
+}
+.sideBar .iconSideMenu .fab {
+	color: #cbcbcb;
+	padding-right: 10%;
+	text-decoration: none;
+}
+/*              *****  main header  *****               */
+.mainHeader {
+	margin-top: 80px;
+	width: 85%;
+	height: 100vh;
+	float: right;
+}
+.mainHeader h2 {
+	color: #3d5a76;
+}
+.our {
+	margin: 8% 10%;
+	border-bottom: #cbcbcb solid 0.5px;
+}
+.mainHeader .underline::after {
+	content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #e1c653;
+    margin: 4px 0px 50px;
+}
+/*          *****  Our Mission  *****          */
+.missionDiv {
+	display: flex;
+	margin: 5% 0;
+}
+.missionOne {
+	display: flex;
+    width: 50%;
+}
+.missionTow {
+	display: flex;
+    width: 50%;
+}
+.missionThree {
+	display: flex;
+    width: 50%;
+}
+.missionFour {
+	display: flex;
+    width: 50%;
+}
+.missionOneIcon {
+	background: url('../image/about/aboutus.png') no-repeat 0 0;
+	width: 55px;
+	height: 55px;
+	margin: auto;
+}
+.missionTowIcon {
+	background: url('../image/about/aboutus.png') no-repeat -191px -6px;
+	width: 55px;
+	height: 55px;
+	margin: auto;
+}
+.missionThreeIcon {
+	background: url('../image/about/aboutus.png') no-repeat -65px -4px;
+	width: 55px;
+	height: 55px;
+	margin: auto;
+}
+.missionFourIcon {
+	background: url('../image/about/aboutus.png') no-repeat -130px -7px;
+	width: 55px;
+	height: 55px;
+	margin: auto;
+}
+.missionDiv p {
+	width: 80%;
+	padding: 0 3%;
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+	color: #585858;
+}
+/*          *****  Our Task  *****          */
+.taskP {
+	width: 75%;
+	margin-bottom: 10%;
+	color: #585858;
+}
+/*          *****  The Way We Work  *****          */
+.way {
+	margin: 8% 10%;
+}
+.way .btn-group {
+	margin: 5% 0;
+}
+.way p {
+	color: #585858;
+}
+.way .btn-group .btn {
+	padding: 3%;
+    background: white;
+    border-radius: 0;
+    border: #585858 0.5px solid;
+    color: #585858;
+    text-align: center;
+    display: flex;
+}
+.way .btn-group .btn:hover {
+	background-color: #f7f7f7;
+}
+.btn p {
+	padding-left: 15%;
+}
+.btn-secondary:not(:disabled):not(.disabled):active {
+	background-color: #545b620d;
+}
+.btn-group .btn .iconBTN1 {
+	background: url('../image/about/aboutus.png') no-repeat -1px -74px;
+	width: 44px;
+	height: 40px;
+}
+.btn-group .btn .iconBTN2 {
+	background: url('../image/about/aboutus.png') no-repeat -51px -68px;
+	width: 40px;
+	height: 38px;
+}
+.btn-group .btn .iconBTN3 {
+	background: url('../image/about/aboutus.png') no-repeat -97px -69px;
+	width: 40px;
+	height: 35px;
+}
+/*          *****  connect  *****          */
+.mainConnect {
+	border-top: #cbcbcb solid 0.5px;
+}
+.connect {
+	margin: 2% 10%;
+}
+.connect .fas {
+	color: #eec851;
+	float: left;
+	padding-right: 5%
+}
+.connect p {
+	color: #585858;
+}
+.mainConnect h2 {
+	display: none;
+}
+.flex-fill {
+	flex: 1 1 33%!important;
+	padding: 3%;
+}
+.iconConnect {
+	display: inline-flex;
+	width: 100%;
+}
+/*          *****  footer  *****          */
+.subFooter {
+	border-top: #cbcbcb solid 0.5px;
+	padding: 2px 0;
+    color: #585858;
+    text-align: center;
+}
+.subFooter p {
+	padding: 0;
+    font-size: 14px;
+    margin: 14px;
+}
+
+/*      *****  width:990px  *****         */
+@media(max-width:990px) {
+	.navbar .navbar-toggler {
+		border: 0;
+		color: white;
+	}
+	.navbar .container {
+		margin: 0;
+	}
+	.jumbotron .container{
+		padding-right: 75px;
+		padding-left: 75px;
+	}
+	.textBigSizing {
+    font-size: 31px;
+	}
+	.textSmallSizing {
+    font-size: 14px;
+    padding: 9px 0;
+	}
+/*      *****  toggle  *****        */
+.toggleBtn {
+  top: 35px;
+  left: 35px;
+  z-index:1100;
+  cursor:pointer;
+  width: auto;
+  height: auto;
+}
+.toggleBtn span {
+  display:block;
+  width:40px;
+  height:3px;
+  background:white;
+  margin:6px 0px; 
+  transition:all 300ms ease-in-out;
+}
+.toggleBtn.active span {
+  background:#3d5a76;
+}
+.toggleBtn span:nth-child(1) {
+  width:25px;
+}
+.toggleBtn span:nth-child(2) {
+  width: 40px;
+}
+.toggleBtn span:nth-child(3) {
+  width: 33px;
+}
+.toggleBtn.active span:nth-child(2) {
+  opacity:0;
+}
+.toggleBtn.active span:nth-child(1) {
+  width: 40px;
+  transform-origin:left;
+  transform:rotate(45deg) translateX(-2px) translateY(-12px);
+}
+.toggleBtn.active span:nth-child(3) {
+  width: 40px;
+  transform-origin:left;
+  transform:rotate(-45deg) translateX(5px) translateY(5px);
+}
+/*        *****  menu  *****       */
+.menu {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  display: block;
+}
+.menu {
+  content:"";
+  position:absolute;
+  top:0px;
+  width:0vw;
+  height:100vh;
+  transition:all 400ms ease-in-out;
+  background: rgba(255, 255, 255, 0.97);
+}
+.menu {
+  left:0px;
+}
+.menu {
+  right:0px;
+}
+.menu.active {
+  position: fixed;
+  width:100vw;
+  z-index: 1050;
+}
+.menu ul {
+  position:absolute;
+  top:-100%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  z-index:2;
+  transition:all 400ms ease-in-out 400ms;
+}
+.menu .navMenu li {
+  list-style:none;
+  margin:5px 0px;
+}
+.menu .navMenu li a {
+	text-decoration: none;
+	color:#3d5a76;
+	font-size:30px;
+}
+.menu .navMenu li a:hover {
+	color: #5f8cb7;
+}
+.menu.active .navMenu {
+  top:35%;
+  padding: 0;
+}
+.fab {
+	color: #cbcbcb;
+	padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.fab:hover {
+	color: #d2d2d2;
+	text-decoration: none;
+}
+.menu.active .iconMenu {
+  top:90%;
+  padding: 0;
+}
+
+/*       *****  sidebar  *****          */
+.sideBar {
+	display: none;
+}
+/*       *****  main header  *****          */
+.mainHeader {
+	width: 100%;
+}
+.container {
+	max-width: 100%;
+}
+.connect {
+    margin: 8% 10%;
+}
+.mainConnect h2 {
+	display: block;
+}
+}
+
+/*      *****  width:770px  *****         */
+@media(max-width:770px) {
+	.navbar-dark .navbar-brand {
+	position: absolute;
+    left: 40%;
+}
+	.missionDiv {
+    display: block;
+    margin: 0;
+}
+	.missionOne {
+    display: flex;
+    width: 100%;
+    margin: 2% 0px;
+}
+	.missionTow {
+    display: flex;
+    width: 100%;
+    margin: 2% 0px;
+}
+	.missionThree {
+    display: flex;
+    width: 100%;
+    margin: 2% 0px;
+}
+	.missionFour {
+    display: flex;
+    width: 100%;
+    margin: 2% 0px;
+}
+	.way .btn-group {
+	display: block!important;
+}
+	.btn-group .btn {
+		display: inline-flex;
+		width: 100%;
+		margin: 0;
+}
+	.btn p {
+    padding-left: 7%;
+    margin: 0;
+}
+	.btn-group .btn .iconBTN1 {
+    margin-left: 2%;
+}
+	.btn-group .btn .iconBTN2 {
+    margin-left: 2%;
+}
+	.btn-group .btn .iconBTN3 {
+    margin-left: 2%;
+}
+	.mainConnect .d-flex {
+	display: block!important;
+}
+}
+
+/*      *****  width:420px  *****         */
+@media (max-width: 420px) {
+	.navbar {
+		padding: 1rem 1rem;
+	}
+	.navbar-dark .navbar-brand {
+	margin: 0;
+    position: relative;
+    left: 0;
+	}
+	.textBigSizing {
+    font-size: 25px;
+	}
+	.textSmallSizing {
+    font-size: 11px;
+    padding: 7px 0;
+	}
+	.toggleBtn span:nth-child(1) {
+		width: 15px;
+	}
+	.toggleBtn span:nth-child(2) {
+		width: 25px;
+	}
+	.toggleBtn span:nth-child(3) {
+		width: 20px;
+	}
+	.missionOneIcon {
+		display: none;
+	}
+	.missionTowIcon {
+		display: none;
+	}
+	.missionThreeIcon {
+		display: none;
+	}
+	.missionFourIcon {
+		display: none;
+	}
+	.missionDiv p {
+		width: 100%;
+	}
+}

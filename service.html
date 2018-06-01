@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EAST</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+<body>
+	<button id="scrollToTopButton" onclick="scrollToTop(300,3);"><i class="fas fa-chevron-up"></i></button>
+	<!--               *****  navbar  *****                -->
+	<nav class="navbar navbar-expand-lg navbar-dark">
+  	<div class="toggleBtn" onclick="toggleMenu(this)">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div id="menu" class="menu">
+  <ul class="navMenu">
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="Service.html">Our Services</a></li>
+  </ul>
+  <ul class="iconMenu">
+    <i><a href="#" class="fab fa-facebook-f"></a></i>
+    <i><a href="#" class="fab fa-twitter"></a></i>
+    <i><a href="#" class="fab fa-youtube"></a></i>
+  </ul>
+</div>
+
+  <a class="navbar-brand navIcon" href="index.html">
+    <span class="textBigSizing">EAST |</span>
+    <div class="textSmallSizing"> Expertise Of Academic<br>Services In Turkey</div>
+  </a>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <i class="fas fa-phone"></i>
+    <p> +90 (533) 852 47 88</p>
+  </div>
+	</nav>
+
+	<!--               *****  side bar  *****                -->
+	<div class="sideBar">
+		<div class="sideFixed">
+		<ul class="sideMenu">
+			<li class="unworking"><a href="about.html">About Us</a></li>
+			<li class="underline working"><a href="Service.html">Our Services</a></li>
+		</ul>
+		</div>		
+		  <ul class="iconSideMenu">
+    		<i><a href="#" class="fab fa-facebook-f"></a></i>
+    		<i><a href="#" class="fab fa-twitter"></a></i>
+    		<i><a href="#" class="fab fa-youtube"></a></i>
+  		</ul>
+
+	</div>
+	<!--               *****  main header  *****                -->
+	<div class="mainHeader">
+		<div class="container">
+
+			<div class="our">
+				<h2 class="underline">A – Z Services</h2>
+				<div class="taskP">
+					<p>Once you send your request, we will do all necessary steps and arrangements using very detailed processes, among the best Turkish Universities, Academic Institutes and Best Training Centers to insure and guarantee your acceptance, based on your choices, intentions, benefits and Interests.</p>
+				</div>
+			</div>
+
+			<div class="our">
+				<h2 class="underline">The Academic Services</h2>
+				<div class="missionDiv">
+				<div class="missionOne">
+				<div class="missionOneIcon"></div>
+				<p>The resources, services, and programs offered by Academic Services are inclusive, comprehensive, and offered at very low charge to all students from the Arab world.</p>
+				</div>
+				<div class="missionTow">
+				<div class="missionTowIcon"></div>
+				<p>Academic Services is committed to offering academic support that enhance students’ abilities to meet academic standards in Turkey, guide students through the transition to the college learning environment, and prepare students for lifelong learning.</p>
+				</div>
+				</div>
+
+				<div class="missionDiv" style="margin-bottom: 10%;">
+				<div class="missionThree">
+				<div class="missionThreeIcon"></div>
+				<p>Academic Services collaborates closely with Academic Affairs and Student Affairs in all Turkish Best Universities.</p>
+				</div>
+				<div class="missionFour">
+				<div class="missionFourIcon"></div>
+				<p>Our programs aim actively support for providing students opportunities to develop and demonstrate their leadership skills, creative abilities, and social awareness.</p>
+				</div>	
+				</div>
+			</div>
+
+			<div class="our">
+				<h2 class="underline">Student and Academic Services</h2>
+				<div class="taskP">
+					<p>The Office of Academic Services is the center for the advising and support for Arab undergraduate and postgraduate students.<br><br>
+
+					The Office of Academic Services empowers students to take responsibility for their educational experience. The office supports and challenges students through their decision-making processes so they can become pro-active members of the community during study and after graduation.<br><br>
+
+					The office provides students and faculty with the resources necessary to thrive in an integrated, competency-based curriculum. The Office of Academic Services assists students with academic and personal development through a variety of programs, including:</p><br>
+					
+					<ul class="listMenu">
+						<li>Personal and Academic Advising and Support</li>
+						<li>Support for the Integrated Curriculum</li>
+						<li>Services for Students with Disabilities</li>
+						<li>Outreach Programming</li>
+						<li>Class-based Programming</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="our2">
+				<h2 class="underline">Dedicated Staff</h2>
+				<div class="taskP">
+					<p>Students are fully supported from the first day they arrive in Turkey. All our staff are more than happy to help students. The Student and Academic Services supports and advises students on admission requirements, programme planning, enrolment and enquiries on any other issues that may arise. The Student Advisors support students throughout their study.</p>
+				</div>
+			</div>
+			
+		</div>
+			<footer class="subFooter">
+				<p>&#169; 2018 Expreties Of Academic Services in Turkey.</p>
+			</footer>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+   function toggleMenu(ref) {
+  ref.classList.toggle('active');
+  document.getElementById('menu').classList.toggle('active');
+}
+
+var html, body, scrollToTopButton;
+window.onload = function() {
+  html = document.documentElement;
+  body = document.body;
+  scrollToTopButton = document.getElementById("scrollToTopButton");
+};
+
+function scrollToTop(totalTime, easingPower) {
+  //console.log("here");
+  var timeInterval = 2; //in ms
+  var scrollTop = Math.round(body.scrollTop || html.scrollTop);
+  //var by=- scrollTop;
+  var timeLeft = totalTime;
+  var scrollByPixel = setInterval(function() {
+    var percentSpent = (totalTime - timeLeft) / totalTime;
+    if (timeLeft >= 0) {
+      var newScrollTop = scrollTop * (1 - easeInOut(percentSpent, easingPower));
+      body.scrollTop = newScrollTop;
+      html.scrollTop = newScrollTop;
+      //console.log(easeInOut(percentSpent,easingPower));
+      timeLeft--;
+    } else {
+      clearInterval(scrollByPixel);
+      //Add hash to the url after scrolling
+      //window.location.hash = hash;
+    }
+  }, timeInterval);
+}
+
+function easeInOut(t, power) {
+  if (t < 0.5) {
+    return 0.5 * Math.pow(2 * t, power);
+  } else {
+    return 0.5 * (2 - Math.pow(2 * (1 - t), power));
+  }
+}
+
+window.onscroll = controlScrollToTopButton;
+
+function controlScrollToTopButton() {
+  var windowInnerHeight = 2 * window.innerHeight;
+  if (
+    body.scrollTop > windowInnerHeight ||
+    html.scrollTop > windowInnerHeight
+  ) {
+    scrollToTopButton.classList.add("show");
+  } else {
+    scrollToTopButton.classList.remove("show");
+  }
+}
+  </script>
+</html>
