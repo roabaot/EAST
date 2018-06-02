@@ -115,6 +115,9 @@ body {
 	padding-right: 10%;
 	text-decoration: none;
 }
+.sideBar .iconSideMenu .fab:hover {
+	color: #d2d2d2;
+}
 /*              *****  main header  *****               */
 .mainHeader {
 	margin-top: 80px;

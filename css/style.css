@@ -19,15 +19,16 @@ body {
 	display: inline-flex;
 }
 .textSmallSizing {
-	font-size: 10px;
-    padding: 7px 0;
-    line-height: 1.2;
+	font-size: 18px;
+    padding: 8px 4px;
+    line-height: 1.15;
 }
 .textBigSizing{
-	font-size: 22px;
+	font-size: 35px;
 }
 .navbar-dark .navbar-nav .nav-link {
 	color: white;
+	font-size: 1.5rem;
 }
 .menu {
 	display: none;
@@ -47,13 +48,14 @@ body {
 }
 .lead {
 	color: white;
-	margin: 55px -15px;
+	margin: 7rem -15px;
+	font-size: 2.25rem;
 }
 .underline::after {
 	content: "";
     display: block;
-    width: 75px;
-    height: 4px;
+    width: 130px;
+    height: 6px;
     background-color:#e1c653;
     margin: 4px 0px;
 }
@@ -79,13 +81,24 @@ body {
     margin-top: -62px;
 }
 .card-body .card-title {
-	font-size: 25px;
+	font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.card-body p {
+	margin-bottom: 3rem;
+    font-size: 1.5rem;	
 }
 .card-body .buttonCard {
 	border-radius: 0;
 	color: #3d5a76;
 	background-color: white;
     border-color: #3d5a76;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.card-body .buttonCard:hover {
+	background-color: whitesmoke;
 }
 .subFooter {
 	padding: 2px 0;
@@ -95,8 +108,49 @@ body {
 }
 .subFooter p {
 	padding: 0;
-    font-size: 14px;
+    font-size: 1.5rem;
     margin: 14px;
+}
+
+/*      *****  width:1500px  *****         */
+@media(max-width:1500px) {
+	.textSmallSizing {
+	font-size: 10px;
+    padding: 7px 0;
+    line-height: 1.2;
+}
+.textBigSizing{
+	font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-size: 1rem;
+}
+.jumbotron .container {
+	max-width: 950px;
+}
+.lead {
+	color: white;
+	margin: 55px -15px;
+	font-size: 1.25rem;
+}
+.card-body .card-title {
+	font-size: 25px;
+	margin-bottom: .75rem;
+	font-weight: normal;
+}
+.card-body p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.card-body .buttonCard {
+    font-size: 1rem;
+    margin: 0;
+}
+.subFooter p {
+    font-size: 1rem;
+}
+
 }
 
 /*      *****  width:990px  *****         */
@@ -281,6 +335,9 @@ body {
 	}
 	.toggleBtn span:nth-child(3) {
 		width: 20px;
+	}
+	.navbar-dark .navbar-brand {
+    left: 20%;
 	}
 	.menu .navMenu li {
 		font-size: 20px;
