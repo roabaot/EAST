@@ -143,7 +143,7 @@ body {
     background-color: #e1c653;
     margin: 4px 0px 50px;
 }
-/*          *****  Our Mission  *****          */
+/*          *****  Services  *****          */
 .missionDiv {
 	display: block;
 	margin: 5% 0;
@@ -199,7 +199,6 @@ body {
 	margin-bottom: 0;
 	color: #585858;
 }
-/*          *****  Our Task  *****          */
 .taskP {
 	width: 100%;
 	margin-bottom: 10%;
@@ -211,72 +210,7 @@ body {
 .taskP .listMenu li {
 	padding-left: 2%;
 }
-/*          *****  The Way We Work  *****          */
-.way {
-	margin: 8% 10%;
-}
-.way .btn-group {
-	margin: 5% 0;
-}
-.way p {
-	color: #585858;
-}
-.way .btn-group .btn {
-	padding: 3%;
-    background: white;
-    border-radius: 0;
-    border: #585858 0.5px solid;
-    color: #585858;
-    text-align: center;
-    display: flex;
-}
-.btn p {
-	padding-left: 15%;
-}
-.btn-secondary:not(:disabled):not(.disabled):active {
-	background-color: #545b620d;
-}
-.btn-group .btn .iconBTN1 {
-	background: url('../image/about/aboutus.png') no-repeat -1px -74px;
-	width: 44px;
-	height: 40px;
-}
-.btn-group .btn .iconBTN2 {
-	background: url('../image/about/aboutus.png') no-repeat -51px -68px;
-	width: 40px;
-	height: 38px;
-}
-.btn-group .btn .iconBTN3 {
-	background: url('../image/about/aboutus.png') no-repeat -97px -69px;
-	width: 40px;
-	height: 35px;
-}
-/*          *****  connect  *****          */
-.mainConnect {
-	border-top: #cbcbcb solid 0.5px;
-}
-.connect {
-	margin: 2% 10%;
-}
-.connect .fas {
-	color: #eec851;
-	float: left;
-	padding-right: 5%
-}
-.connect p {
-	color: #585858;
-}
-.mainConnect h2 {
-	display: none;
-}
-.flex-fill {
-	flex: 1 1 33%!important;
-	padding: 3%;
-}
-.iconConnect {
-	display: inline-flex;
-	width: 100%;
-}
+
 /*          *****  footer  *****          */
 .subFooter {
 	border-top: #cbcbcb solid 0.5px;
