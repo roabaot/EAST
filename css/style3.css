@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ptt7w4');
+  src:  url('fonts/icomoon.eot?ptt7w4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ptt7w4') format('truetype'),
+    url('fonts/icomoon.woff?ptt7w4') format('woff'),
+    url('fonts/icomoon.svg?ptt7w4#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon{
+      font-family: 'icomoon' !important;
+      font-style: normal!important;
+}
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-clock:before {
+  content: "\e901";
+}
+.icon-facebook-f:before {
+  content: "\e902";
+}
+.icon-map-marker-alt:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\e905";
+}
+.icon-youtube:before {
+  content: "\e906";
+}
+
 * {
 	font-family: 'PT Serif', serif;
 }
@@ -37,7 +73,7 @@ body {
 	color: white;
 	margin: 0;
 }
-.navbar .fas {
+.navbar .icon {
 	color: #eec851;
     padding-top: 25px;
     transform-origin: center;
@@ -110,12 +146,12 @@ body {
     padding-left: 5%;
     width: 15%;
 }
-.sideBar .iconSideMenu .fab {
+.sideBar .iconSideMenu .icon {
 	color: #cbcbcb;
 	padding-right: 10%;
 	text-decoration: none;
 }
-.sideBar .iconSideMenu .fab:hover {
+.sideBar .iconSideMenu .icon:hover {
 	color: #d2d2d2;
 }
 /*              *****  main header  *****               */
@@ -338,13 +374,13 @@ body {
   top:35%;
   padding: 0;
 }
-.fab {
-	color: #cbcbcb;
+.icon {
+	color: #cbcbcb!important;
 	padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
 }
-.fab:hover {
+.icon:hover {
 	color: #d2d2d2;
 	text-decoration: none;
 }
