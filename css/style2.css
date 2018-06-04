@@ -93,8 +93,13 @@ body {
 	cursor: pointer;
 	z-index: 5;
 }
-
-
+#scrollToTopButton:hover {
+background-color: #d2d2d2;
+}
+#scrollToTopButton:active {
+	background-color: #1e6ab8cc;
+	color: white;
+}
 
 /*              *****  side bar  *****               */
 .sideBar {
